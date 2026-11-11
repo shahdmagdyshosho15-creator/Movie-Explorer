@@ -44,8 +44,8 @@ function Home() {
             backgroundImage: `url(https://image.tmdb.org/t/p/w1280${hero.backdrop_path})`,
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-ink via-ink/60 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-r from-black/80 to-transparent" />
           <div className="relative px-6 md:px-12 pb-12 max-w-2xl">
             <h1 className="text-4xl md:text-6xl font-extrabold mb-3">{hero.title}</h1>
             <p className="text-gray-300 mb-2">
